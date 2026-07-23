@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Abdurehman Shazard - Front-End Web Developer portfolio featuring premium UI, responsive design, and interactive sections." />
+  <meta name="author" content="Abdurehman Shazard" />
+  <title>Abdurehman Shazad | Front-End Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Scroll progress indicator -->
+  <div class="progress-bar" aria-hidden="true"></div>
+
+  <!-- Main header and navigation -->
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <a class="brand" href="#hero">AS</a>
+
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-label="Open navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="main-nav" id="main-nav" aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li><a class="nav-link active" href="#hero">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#skills">Skills</a></li>
+          <li><a class="nav-link" href="#services">Services</a></li>
+          <li><a class="nav-link" href="#projects">Projects</a></li>
+          <li><a class="nav-link" href="#resume">Resume</a></li>
+          <li><a class="nav-link" href="#testimonials">Testimonials</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="theme-button" id="theme-button" aria-label="Toggle theme">☾</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero section" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <span class="eyebrow">Hello, I’m</span>
+          <h1>Abdurehman <span>Shazad</span></h1>
+          <p class="hero-description">
+            I design and build premium front-end experiences with modern interactions, polished visuals, and
+            performance-first code.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Hire Me</a>
+            <a class="btn btn-secondary" href="./abdurehman cv.pdf" target="_blank" download>
+              Download CV
+            </a>
+          </div>
+          <div class="hero-socials" aria-label="Social profiles">
+            <a class="social-link" href="https://github.com/abdurehmanmughal0327-hash" aria-label="GitHub">GitHub</a>
+            <a class="social-link" href="https://www.linkedin.com/in/abdurehman-shazard-614332317/"
+              aria-label="LinkedIn">LinkedIn</a>
+            <a class="social-link" href="#" aria-label="Facebook">Facebook</a>
+            <a class="social-link" href="https://www.instagram.com/lost_in_echoes.__.18/?hl=en" aria-label="Instagram">Instagram</a>
+          </div>
+        </div>
+
+        <div class="hero-media reveal">
+          <div class="hero-card">
+            <img class="hero-image" src="./Screenshot_2025-12-30-18-51-29-05_7352322957d4404136654ef4adb64504.jpg"
+              alt="Portrait of Abdurehman Shazard" loading="lazy" />
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-card">
+              <p class="stat-number">8+</p>
+              <p>Years experience</p>
+            </div>
+            <div class="stat-card">
+              <p class="stat-number">120+</p>
+              <p>Projects delivered</p>
+            </div>
+            <div class="stat-card">
+              <p class="stat-number">95%</p>
+              <p>Client satisfaction</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+      <div class="container section-header reveal">
+        <span class="section-label">About Me</span>
+        <h2>Professional Introduction</h2>
+      </div>
+      <div class="container about-grid">
+        <article class="about-copy reveal">
+          <p>
+            As a Front-End Web Developer, I create high-quality websites with elegant visuals, seamless interactions,
+            and optimized performance. My work focuses on responsive interfaces, intuitive user journeys, and clean
+            code.
+          </p>
+          <div class="about-highlights">
+            <div>
+              <h3>Education</h3>
+              <p>Completed Higher Secondary (Pre-Engineering), with the final result currently awaited.
+                Currently enrolled in a Web Development course at Aptech, focusing on HTML, CSS, JavaScript, and modern
+                web development.</p>
+            </div>
+            <div>
+              <h3>Experience</h3>
+              <p>Currently building responsive websites and personal projects using HTML, CSS, and JavaScript.
+                Continuously improving my front-end development skills through practical projects and coursework at
+                Aptech.</p>
+            </div>
+            <div>
+              <h3>Career Goals</h3>
+              <p>My goal is to become a skilled Full-Stack Web Developer by building modern, user-friendly, and
+                high-performance web applications while continuously learning new technologies.</p>
+            </div>
+          </div>
+        </article>
+
+        <aside class="about-cards">
+          <div class="info-card reveal">
+            <h3>Design Systems</h3>
+            <p>Crafting reusable UI components for consistent brand experiences.</p>
+          </div>
+          <div class="info-card reveal">
+            <h3>Performance</h3>
+            <p>Optimizing every page for speed, accessibility, and device compatibility.</p>
+          </div>
+          <div class="info-card reveal">
+            <h3>Collaboration</h3>
+            <p>Working closely with teams to turn ideas into pixel-perfect products.</p>
+          </div>
+          <div class="info-card reveal">
+            <h3>Personal Info</h3>
+            <ul>
+              <li><strong>Email:</strong> abdurehmanshazard577@gmail.com</li>
+              <li><strong>Location:</strong> Karachi, Pakistan</li>
+              <li><strong>Availability:</strong> Internship / Freelance / Remote</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section" id="skills">
+      <div class="container section-header reveal">
+        <span class="section-label">Skills</span>
+        <h2>Technical Expertise</h2>
+      </div>
+      <div class="container skills-grid">
+        <article class="skill-card reveal">
+          <h3>HTML</h3>
+          <div class="skill-meter">
+            <span class="skill-fill" data-skill="92"></span>
+          </div>
+          <p class="skill-value">92%</p>
+        </article>
+        <article class="skill-card reveal">
+          <h3>CSS</h3>
+          <div class="skill-meter">
+            <span class="skill-fill" data-skill="90"></span>
+          </div>
+          <p class="skill-value">90%</p>
+        </article>
+        <article class="skill-card reveal">
+          <h3>JavaScript</h3>
+          <div class="skill-meter">
+            <span class="skill-fill" data-skill="84"></span>
+          </div>
+          <p class="skill-value">84%</p>
+        </article>
+        <article class="skill-card reveal">
+          <h3>Responsive Design</h3>
+          <div class="skill-meter">
+            <span class="skill-fill" data-skill="96"></span>
+          </div>
+          <p class="skill-value">96%</p>
+        </article>
+        <article class="skill-card reveal">
+          <h3>WordPress</h3>
+          <div class="skill-meter">
+            <span class="skill-fill" data-skill="78"></span>
+          </div>
+          <p class="skill-value">78%</p>
+        </article>
+        <article class="skill-card reveal">
+          <h3>Git &amp; GitHub</h3>
+          <div class="skill-meter">
+            <span class="skill-fill" data-skill="88"></span>
+          </div>
+          <p class="skill-value">88%</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section" id="services">
+      <div class="container section-header reveal">
+        <span class="section-label">Services</span>
+        <h2>What I Offer</h2>
+      </div>
+      <div class="container services-grid">
+        <article class="service-card reveal">
+          <h3>Website Development</h3>
+          <p>Responsive front-end development with modern UX and fast loading performance.</p>
+        </article>
+        <article class="service-card reveal">
+          <h3>Landing Page Design</h3>
+          <p>Conversion-focused landing pages with polished visuals and strong messaging.</p>
+        </article>
+        <article class="service-card reveal">
+          <h3>Responsive Design</h3>
+          <p>Layouts that adapt beautifully from mobile to desktop without compromise.</p>
+        </article>
+        <article class="service-card reveal">
+          <h3>Portfolio Websites </h3>
+          <p>
+            Professional portfolio websites with clean design, responsive layouts, and modern user experiences.</p>
+        </article>
+        <article class="service-card reveal">
+          <h3>Website Maintenance</h3>
+          <p>Reliable updates, performance optimizations, and long-term frontend support.</p>
+        </article>
+        <article class="service-card reveal">
+          <h3>Bug Fixes</h3>
+          <p>Fixing layout issues, improving responsiveness, and resolving front-end bugs for better user experience.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section" id="projects">
+      <div class="container section-header reveal">
+        <span class="section-label">Portfolio</span>
+        <h2>Featured Projects</h2>
+      </div>
+      <div class="container projects-filter reveal" aria-label="Project categories">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+        <button class="filter-btn" data-filter="landing">Landing</button>
+        <button class="filter-btn" data-filter="wordpress">WordPress</button>
+      </div>
+      <div class="container projects-grid">
+        <article class="project-card reveal" data-category="web">
+          <img class="project-image"
+            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nNDgwJyBoZWlnaHQ9JzI4MCcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9J2lnJyB4MT0nMCcgeTE9JzAnIHgyPScxJyB5Mj0nMSc+PHN0b3Agb2Zmc2V0PScwJyBzdG9wLWNvbG9yPScjMjdjOGZmJy8+PHN0b3Agb2Zmc2V0PScxMDAlJyBzdG9wLWNvbG9yPScjMDM3OGI2Jy8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3Qgd2lkdGg9JzQ4MCcgaGVpZ2h0PScyODAnIGZpbGw9J3VybCgjZWcpKScvPjx0ZXh0IHg9JzUwJScgeT0nNTUnIGRvbWluYW50LWFsaWduPSdtaWRkbGUnIGZvbnQtZmFtaWx5PSdQb3BwaW5zLCBzYW5zLXNlcmlmJyBmb250LXNpemU9JzQyJyBmaWxsPScjZmZmJz5Qcm9qZWN0PC90ZXh0Pjwvc3ZnPg=="
+            alt="Project preview image" loading="lazy" />
+          <div class="project-content">
+            <h3>Creative Agency</h3>
+            <p>Modern agency website with smooth scroll interactions and responsive design.</p>
+            <p class="project-meta">HTML · CSS · JavaScript</p>
+            <div class="project-actions">
+              <a class="btn btn-sm" href="#">Live Demo</a>
+              <a class="btn btn-sm btn-secondary" href="#">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="landing">
+          <img class="project-image"
+            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nNDgwJyBoZWlnaHQ9JzI4MCcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9J2JnJyB4MT0nMCcgeTE9JzAnIHgyPScxJyB5Mj0nMSc+PHN0b3Agb2Zmc2V0PScwJyBzdG9wLWNvbG9yPScjMmM0ZGJmJy8+PHN0b3Agb2Zmc2V0PScxMDAlJyBzdG9wLWNvbG9yPScjMDIzNjdiJy8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3Qgd2lkdGg9JzQ4MCcgaGVpZ2h0PScyODAnIGZpbGw9J3VybCgjaWcpKScvPjx0ZXh0IHg9JzUwJScgeT0nNTUnIGRvbWluYW50LWFsaWduPSdtaWRkbGUnIGZvbnQtZmFtaWx5PSdQb3BwaW5zLCBzYW5zLXNlcmlmJyBmb250LXNpemU9JzQyJyBmaWxsPScjZmZmJz5Qb2xhbmQ8L3RleHQ+PC9zdmc+"
+            alt="Project preview image" loading="lazy" />
+          <div class="project-content">
+            <h3>Startup Landing</h3>
+            <p>A clean landing page built for user acquisition and fast mobile performance.</p>
+            <p class="project-meta">HTML · CSS · UX</p>
+            <div class="project-actions">
+              <a class="btn btn-sm" href="#">Live Demo</a>
+              <a class="btn btn-sm btn-secondary" href="#">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="wordpress">
+          <img class="project-image"
+            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nNDgwJyBoZWlnaHQ9JzI4MCcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9J2NoJyB4MT0nMCcgeTE9JzAnIHgyPScxJyB5Mj0nMSc+PHN0b3Agb2Zmc2V0PScwJyBzdG9wLWNvbG9yPScjZmY1ZjkyJy8+PHN0b3Agb2Zmc2V0PScxMDAlJyBzdG9wLWNvbG9yPScjMDIzYjVyJy8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3Qgd2lkdGg9JzQ4MCcgaGVpZ2h0PScyODAnIGZpbGw9J3VybCgjaWcpKScvPjx0ZXh0IHg9JzUwJScgeT0nNTUnIGRvbWluYW50LWFsaWduPSdtaWRkbGUnIGZvbnQtZmFtaWx5PSdQb3BwaW5zLCBzYW5zLXNlcmlmJyBmb250LXNpemU9JzQyJyBmaWxsPScjZmZmJz5Xb3JkUHJlc3M8L3RleHQ+PC9zdmc+"
+            alt="Project preview image" loading="lazy" />
+          <div class="project-content">
+            <h3>Business Blog</h3>
+            <p>Custom WordPress theme built for storytelling, editorial layouts, and speed.</p>
+            <p class="project-meta">WordPress · PHP · CSS</p>
+            <div class="project-actions">
+              <a class="btn btn-sm" href="#">Live Demo</a>
+              <a class="btn btn-sm btn-secondary" href="#">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="web">
+          <img class="project-image"
+            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nNDgwJyBoZWlnaHQ9JzI4MCcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9J2RnJyB4MT0nMCcgeTE9JzAnIHgyPScxJyB5Mj0nMSc+PHN0b3Agb2Zmc2V0PScwJyBzdG9wLWNvbG9yPScjN2M0ZGY4Jy8+PHN0b3Agb2Zmc2V0PScxMDAlJyBzdG9wLWNvbG9yPScjMDM3OGI2Jy8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3Qgd2lkdGg9JzQ4MCcgaGVpZ2h0PScyODAnIGZpbGw9J3VybCgjaWcpKScvPjx0ZXh0IHg9JzUwJScgeT0nNTUnIGRvbWluYW50LWFsaWduPSdtaWRkbGUnIGZvbnQtZmFtaWx5PSdQb3BwaW5zLCBzYW5zLXNlcmlmJyBmb250LXNpemU9JzQyJyBmaWxsPScjZmZmJz5Qb3J0Zm9saW89PC90ZXh0Pjwvc3ZnPg=="
+            alt="Project preview image" loading="lazy" />
+          <div class="project-content">
+            <h3>Portfolio Redesign</h3>
+            <p>A modern portfolio with refined typography, interactions, and polished details.</p>
+            <p class="project-meta">HTML · CSS · JavaScript</p>
+            <div class="project-actions">
+              <a class="btn btn-sm" href="#">Live Demo</a>
+              <a class="btn btn-sm btn-secondary" href="#">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="landing">
+          <img class="project-image"
+            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nNDgwJyBoZWlnaHQ9JzI4MCcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9J2ZoJyB4MT0nMCcgeTE9JzAnIHgyPScxJyB5Mj0nMSc+PHN0b3Agb2Zmc2V0PScwJyBzdG9wLWNvbG9yPScjMmM0ZGJmJy8+PHN0b3Agb2Zmc2V0PScxMDAlJyBzdG9wLWNvbG9yPScjMDI2N2I4Jy8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3Qgd2lkdGg9JzQ4MCcgaGVpZ2h0PScyODAnIGZpbGw9J3VybCgjaWcpKScvPjx0ZXh0IHg9JzUwJScgeT0nNTUnIGRvbWluYW50LWFsaWduPSdtaWRkbGUnIGZvbnQtZmFtaWx5PSdQb3BwaW5zLCBzYW5zLXNlcmlmJyBmb250LXNpemU9JzQyJyBmaWxsPScjZmZmJz5Qcm9kdWN0PC90ZXh0Pjwvc3ZnPg=="
+            alt="Project preview image" loading="lazy" />
+          <div class="project-content">
+            <h3>Product Launch</h3>
+            <p>Launch page designed to highlight product benefits and drive user engagement.</p>
+            <p class="project-meta">HTML · CSS · JavaScript</p>
+            <div class="project-actions">
+              <a class="btn btn-sm" href="#">Live Demo</a>
+              <a class="btn btn-sm btn-secondary" href="#">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="wordpress">
+          <img class="project-image"
+            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nNDgwJyBoZWlnaHQ9JzI4MCcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9J2d2JyB4MT0nMCcgeTE9JzAnIHgyPScxJyB5Mj0nMSc+PHN0b3Agb2Zmc2V0PScwJyBzdG9wLWNvbG9yPScjZmY1ZjkyJy8+PHN0b3Agb2Zmc2V0PScxMDAlJyBzdG9wLWNvbG9yPScjMDIzYjVyJy8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3Qgd2lkdGg9JzQ4MCcgaGVpZ2h0PScyODAnIGZpbGw9J3VybCgjaWcpKScvPjx0ZXh0IHg9JzUwJScgeT0nNTUnIGRvbWluYW50LWFsaWduPSdtaWRkbGUnIGZvbnQtZmFtaWx5PSdQb3BwaW5zLCBzYW5zLXNlcmlmJyBmb250LXNpemU9JzQyJyBmaWxsPScjZmZmJz5FY29tbWVyY2U8L3RleHQ+PC9zdmc+"
+            alt="Project preview image" loading="lazy" />
+          <div class="project-content">
+            <h3>E-commerce Site</h3>
+            <p>WordPress storefront with intuitive product browsing and strong visual hierarchy.</p>
+            <p class="project-meta">WordPress · CSS · UI</p>
+            <div class="project-actions">
+              <a class="btn btn-sm" href="#">Live Demo</a>
+              <a class="btn btn-sm btn-secondary" href="#">GitHub</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- Resume Section -->
+    <section class="resume section" id="resume">
+      <div class="container section-header reveal">
+        <span class="section-label">Resume</span>
+        <h2>Education & Experience</h2>
+      </div>
+
+      <div class="container resume-grid">
+
+        <div class="timeline reveal">
+
+          <div class="timeline-item">
+            <span class="timeline-date">2026</span>
+            <h3>Higher Secondary (Pre-Engineering)</h3>
+            <p>Completed Intermediate (HSSC) in Pre-Engineering. Final result awaited.</p>
+          </div>
+
+          <div class="timeline-item">
+            <span class="timeline-date">2026 – Present</span>
+            <h3>Diploma in Web Development</h3>
+            <p>Currently pursuing a Web Development Diploma at Aptech, focusing on HTML, CSS, JavaScript, Bootstrap, Git
+              & GitHub, and Responsive Web Design.</p>
+          </div>
+
+          <div class="timeline-item">
+            <span class="timeline-date">2026 – Present</span>
+            <h3>Front-End Development Projects</h3>
+            <p>Building responsive websites and personal projects while continuously improving front-end development
+              skills.</p>
+          </div>
+
+        </div>
+
+        <aside class="resume-card reveal">
+          <h3>Resume Highlights</h3>
+
+          <p>
+            I am an aspiring Front-End Web Developer currently pursuing a Web Development Diploma at Aptech. I enjoy
+            building modern, responsive, and user-friendly websites using HTML, CSS, JavaScript, and Bootstrap. I
+            continuously improve my skills by working on personal projects and learning modern web technologies.
+          </p>
+
+          <a class="btn btn-primary" href="./abdurehman cv.pdf" target="_blank" download>
+            Download CV
+          </a>
+
+        </aside>
+
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials section" id="testimonials">
+      <div class="container section-header reveal">
+        <span class="section-label">Testimonials</span>
+        <h2>Client Feedback</h2>
+      </div>
+      <div class="container testimonial-slider reveal">
+        <div class="testimonial-track" id="testimonial-track">
+          <article class="testimonial-card active">
+            <p>"Abdurehman delivered an exceptional website with attention to detail and strong performance. The project
+              launch exceeded expectations."</p>
+            <h3>Emily Roberts</h3>
+            <span>Marketing Director</span>
+          </article>
+          <article class="testimonial-card">
+            <p>"Their communication, design sense, and implementation were fantastic. We continue to collaborate on new
+              ideas."</p>
+            <h3>Michael Chen</h3>
+            <span>Product Manager</span>
+          </article>
+          <article class="testimonial-card">
+            <p>"A talented developer who consistently delivers clean code and polished user interfaces. Highly
+              recommended."</p>
+            <h3>Sarah Johnson</h3>
+            <span>Startup Founder</span>
+          </article>
+        </div>
+        <div class="testimonial-controls" aria-label="Testimonial navigation">
+          <button class="testimonial-dot active" data-index="0"></button>
+          <button class="testimonial-dot" data-index="1"></button>
+          <button class="testimonial-dot" data-index="2"></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+      <div class="container section-header reveal">
+        <span class="section-label">Contact</span>
+        <h2>Let's work together</h2>
+      </div>
+      <div class="container contact-grid">
+        <article class="contact-info reveal">
+          <h3>Send a message</h3>
+          <p>Whether you have a project brief or want to discuss an idea, I’m ready to help bring it to life.</p>
+          <div class="contact-cards">
+            <div class="contact-card">
+              <h4>Email</h4>
+              <p>abdurehmanshazad577@gmail.com</p>
+            </div>
+            <div class="contact-card">
+              <h4>Location</h4>
+              <p>Karachi , Pakistan</p>
+            </div>
+            <div class="contact-card">
+              <h4>Availability</h4>
+              <p>Internship / Freelance / Remote</p>
+            </div>
+          </div>
+        </article>
+
+        <form class="contact-form reveal" id="contact-form" novalidate>
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+          </div>
+          <div class="form-row">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Project subject" required />
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project" required></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Send Message</button>
+          <p class="form-feedback" id="form-feedback" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand reveal">
+        <a class="brand" href="#hero">AS</a>
+        <p>A premium portfolio showcasing modern front-end development and polished digital experiences.</p>
+      </div>
+      <div class="footer-links reveal">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-socials reveal">
+        <h3>Follow</h3>
+        <div class="footer-social-list">
+          <a href="#" aria-label="GitHub">GitHub</a>
+          <a href="#" aria-label="LinkedIn">LinkedIn</a>
+          <a href="#" aria-label="Instagram">Instagram</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom reveal">
+      <p>© 2026 Abdurehman Shazard. All rights reserved.</p>
+      <button class="back-to-top" id="back-to-top" aria-label="Back to top">↑</button>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+
+</html>
